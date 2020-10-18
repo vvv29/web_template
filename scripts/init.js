@@ -1,0 +1,9 @@
+var tamX = new Array();
+var tamY = new Array();
+var posX = new Array();
+var posY = new Array();
+var imagen = new Array();
+var imagenClick = new Array();
+var contenido = new Array();
+var tiempoReset = new Array();
+var resultados = '';

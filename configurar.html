@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+var configuracion = true;
+</script>
+<script src="scripts/init.js"></script>
+<script src="configuracion.js"></script>
+<script src="scripts/elementos.js"></script>
+<script src="scripts/interact.js"></script>
+<script src="scripts/mover.js"></script>
+<link href="scripts/configurar.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div id="contenedor" class="resize-container">
+</div>
+
+<button type="button" onclick="mostrarResultados();">Mostrar posiciones y tamaños</button>
+
+<div id="resultados" class="modal">
+  <button type="button" onclick="copiarResultados();">Copiar</button>
+  <button type="button" onclick="cerrarResultados();">Cerrar</button>
+  <textarea id="contenido-resultados" class="modal-content"></textarea>  
+</div>
+
+</body>
+</html>
